@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: oauth2-service
+server:
+  port: ${PORT:8087}

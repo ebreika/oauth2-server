@@ -1,0 +1,17 @@
+{
+  "name": "tours-service",
+  "description": "OAuth2 Server for waybe.",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+}
